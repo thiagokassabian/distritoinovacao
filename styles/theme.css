@@ -1,0 +1,26 @@
+.hero {
+	background-image: url('../assets/img/banner2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 740px bottom;
+
+	.mask {
+		position: absolute;
+		inset: 0;
+		background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 40%, rgba(255, 255, 255, 0) 100%);
+	}
+}
+
+.banner {
+	background-image: url('../assets/img/banner1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+
+	.mask {
+		position: absolute;
+		inset: 0;
+		background: linear-gradient(to left, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 40%, rgba(255, 255, 255, 0) 100%);
+	}
+}
