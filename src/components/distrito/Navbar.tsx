@@ -1,7 +1,5 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo.png";
 
 const navItems = [
 	"Entenda o Distrito", "Pulso", "Projetos e Resultados", "Agenda e Marcos", "Ecossistema", "Ecossistema em Rede", "Sala de Imprensa", "Dúvidas", "Participação"
@@ -17,7 +15,7 @@ const Navbar = () => {
 					Distrito de Inovação<span className="text-primary">.</span>
 				</a> */}
 				<div>
-					<a href="#" className="inline-flex"><img src={logo} alt="Logo do Distrito" className="h-8 w-auto" /></a>
+					<a href="#" className="inline-flex"><img src="../assets/img/logo.png" alt="Logo do Distrito" className="h-8 w-auto" /></a>
 				</div>
 
 				{/* Desktop nav */}
