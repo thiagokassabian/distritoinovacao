@@ -45,7 +45,7 @@ const FaqSection = () => {
 	return (
 		<section id="faq" className="py-16 sm:py-20 bg-gray-300/35">
 			<div className="section-container">
-				<h2 className="section-title mb-8">FAQ & ESCLARECIMENTOS</h2>
+				<h2 className="section-title mb-8 uppercase">Dúvidas frequentes</h2>
 
 				<Accordion type="single" collapsible className="space-y-2">
 					{faqs.map((faq, i) => (

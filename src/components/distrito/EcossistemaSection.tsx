@@ -36,19 +36,17 @@ const EcossistemaSection = () => {
 	return (
 		<section id="ecossistema" className="py-16 sm:py-20 bg-gray-300/35">
 			<div className="section-container">
-				<h2 className="section-title mb-3">ECOSSISTEMA EM REDE</h2>
-				<p className="text-lg text-muted-foreground mb-8">
+				<h2 className="section-title">ECOSSISTEMA EM REDE</h2>
+				<p className="text-lg text-muted-foreground mb-10">
 					Instituições, governo e empresas conectados para transformar conhecimento em soluções reais.
 				</p>
-				
-				<div>
-					<div className="flex flex-wrap items-center justify-between mb-8">
-						{logos.map((logo, i) => (
-							<div key={i} className="h-16 flex items-center">
-								<img src={logo.src} alt={logo.alt} className="w-full h-full object-contain" />
-							</div>
-						))}
-					</div>
+
+				<div className="flex flex-wrap items-center justify-between mb-10">
+					{logos.map((logo, i) => (
+						<div key={i} className="h-16 flex items-center">
+							<img src={logo.src} alt={logo.alt} className="w-full h-full object-contain" />
+						</div>
+					))}
 				</div>
 
 				<div className="grid sm:grid-cols-3 gap-4 mb-8">
