@@ -11,12 +11,12 @@ const categories = [
 
 
 const logos = [
-	{ src: "../assets/img/logos/logo-usp.png", alt: "USP" },
-	{ src: "../assets/img/logos/logo-butantan.png", alt: "Instituto Butantan" },
-	{ src: "../assets/img/logos/logo-ipt.png", alt: "IPT" },
-	{ src: "../assets/img/logos/logo-ipen.png", alt: "IPEN" },
-	{ src: "../assets/img/logos/logo-fapesp.png", alt: "FAPESP" },
-	{ src: "../assets/img/logos/logo-prefeiturasp.png", alt: "Prefeitura de São Paulo" },
+	{ src: "./assets/img/logos/logo-usp.png", alt: "USP" },
+	{ src: "./assets/img/logos/logo-butantan.png", alt: "Instituto Butantan" },
+	{ src: "./assets/img/logos/logo-ipt.png", alt: "IPT" },
+	{ src: "./assets/img/logos/logo-ipen.png", alt: "IPEN" },
+	{ src: "./assets/img/logos/logo-fapesp.png", alt: "FAPESP" },
+	{ src: "./assets/img/logos/logo-prefeiturasp.png", alt: "Prefeitura de São Paulo" },
 ];
 
 // const links = [

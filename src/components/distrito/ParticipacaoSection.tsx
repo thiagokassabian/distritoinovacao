@@ -16,7 +16,7 @@ const ParticipacaoSection = () => {
 				{/* <div className="flex flex-col md:flex-row items-start gap-8"> */}
 					{/* Form */}
 					<div>
-						<img src="../assets/img/foto1.png" alt="" className="absolute bottom-0 max-w-5xl" />
+						<img src="./assets/img/foto1.png" alt="" className="absolute bottom-0 max-w-5xl" />
 					</div>
 					<div className="distrito-card w-full relative">
 						<h3 className="font-display font-semibold text-foreground mb-2 flex items-center gap-2">
