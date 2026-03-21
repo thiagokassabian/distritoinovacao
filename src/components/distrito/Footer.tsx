@@ -22,7 +22,7 @@ const Footer = () => {
 							<div className="text-sm text-secondary-foreground/60">SCTI — Governo do Estado de São Paulo</div>
 						</div>
 						<div>
-							<img src="../assets/img/sec-gov-sp-branca.png" alt="Secretaria de Estado de São Paulo" />
+							<img src="./assets/img/sec-gov-sp-branca.png" alt="Secretaria de Estado de São Paulo" />
 						</div>
 					</div>
 					<div>

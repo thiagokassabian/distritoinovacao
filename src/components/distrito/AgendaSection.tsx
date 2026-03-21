@@ -2,12 +2,12 @@ import { Button } from "@/components/ui/button";
 import { CalendarDays, ArrowRight } from "lucide-react";
 
 const events = [
-	{ date: "18/03/2026", title: "Publicação do calendário trimestral — Por que importa: previsibilidade pública. Prova: PDF" },
-	{ date: "19/03/2026", title: "Workshop técnico (Saúde Digital) — escopo e critérios. Prova: síntese pós-evento" },
-	{ date: "22/03/2026", title: "Rodada de testes #1 (Gov Digital) — validação com usuários. Prova: relatório" },
-	{ date: "25/03/2026", title: "Encontro “Conexões do Distrito” — aproxima atores. Prova: gravação+minuta" },
-	{ date: "26/03/2026", title: "Comitê de decisão (Segurança PoC) — entrada/saída. Prova: ata" },
-	{ date: "30/03/2026", title: "Atualização do Pulso — prestação de contas. Prova: PDF" },
+	{ date: "18/03/2026", title: "Publicação do calendário trimestral — Por que importa: previsibilidade pública." },
+	{ date: "19/03/2026", title: "Workshop técnico (Saúde Digital) — escopo e critérios." },
+	{ date: "22/03/2026", title: "Rodada de testes #1 (Gov Digital) — validação com usuários." },
+	{ date: "25/03/2026", title: "Encontro “Conexões do Distrito” — aproxima atores." },
+	{ date: "26/03/2026", title: "Comitê de decisão (Segurança PoC) — entrada/saída." },
+	{ date: "30/03/2026", title: "Atualização do Pulso — prestação de contas." },
 ];
 
 const AgendaSection = () => {
