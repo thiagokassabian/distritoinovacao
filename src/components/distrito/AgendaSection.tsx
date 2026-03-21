@@ -12,7 +12,7 @@ const events = [
 
 const AgendaSection = () => {
 	return (
-		<section id="agenda" className="py-16 sm:py-20 bg-background">
+		<section id="agenda-e-marcos" className="distrito-section py-16 sm:py-20 bg-background">
 			<div className="section-container">
 				<h2 className="section-title flex items-center gap-3">
 					<CalendarDays className="text-primary" size={28} />

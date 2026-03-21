@@ -71,6 +71,7 @@
   body {
     @apply bg-background text-foreground font-body antialiased;
     font-family: var(--font-body);
+    scroll-behavior: smooth;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -98,6 +99,10 @@
 
   .distrito-card {
     @apply bg-card rounded-lg border border-border p-6 transition-all duration-200 hover:shadow-md;
+  }
+
+  .distrito-section {
+    scroll-margin-top: 6rem;
   }
 
   .stat-number {

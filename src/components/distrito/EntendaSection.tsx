@@ -10,7 +10,7 @@ const steps = [
 
 const EntendaSection = () => {
 	return (
-		<section id="o-projeto" className="py-16 sm:py-20 bg-background">
+		<section id="entenda-o-distrito" className="distrito-section py-16 sm:py-20 bg-background">
 			<div className="section-container">
 				<motion.div
 					initial={{ opacity: 0, y: 20 }}

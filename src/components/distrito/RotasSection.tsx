@@ -44,7 +44,7 @@ const RotasSection = () => {
 	const [openIdx, setOpenIdx] = useState<number | null>(null);
 
 	return (
-		<section className="py-16 sm:py-20 bg-gray-300/35">
+		<section id="ecossistema-em-rede" className="distrito-section py-16 sm:py-20 bg-gray-300/35">
 			<div className="section-container">
 				<h2 className="section-title">ROTAS POR PÚBLICO</h2>
 				<p className="text-lg text-muted-foreground mb-8">

@@ -22,7 +22,7 @@ const projetos = [
 
 const ProjetosSection = () => {
 	return (
-		<section className="py-16 sm:py-20 bg-gray-300/35">
+		<section id="projetos-e-resultados" className="distrito-section py-16 sm:py-20 bg-gray-300/35">
 			<div className="section-container">
 				<h2 className="section-title mb-6">PROJETOS & RESULTADOS</h2>
 

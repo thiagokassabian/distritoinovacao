@@ -34,7 +34,7 @@ const EcossistemaSection = () => {
 	// const [activeTag, setActiveTag] = useState("P&D");
 
 	return (
-		<section id="ecossistema" className="py-16 sm:py-20 bg-gray-300/35">
+		<section id="ecossistema" className="distrito-section py-16 sm:py-20 bg-gray-300/35">
 			<div className="section-container">
 				<h2 className="section-title">ECOSSISTEMA EM REDE</h2>
 				<p className="text-lg text-muted-foreground mb-10">

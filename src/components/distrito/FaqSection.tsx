@@ -43,7 +43,7 @@ const faqs = [
 
 const FaqSection = () => {
 	return (
-		<section id="faq" className="py-16 sm:py-20 bg-gray-300/35">
+		<section id="dúvidas" className="distrito-section py-16 sm:py-20 bg-gray-300/35">
 			<div className="section-container">
 				<h2 className="section-title mb-8 uppercase">Dúvidas frequentes</h2>
 

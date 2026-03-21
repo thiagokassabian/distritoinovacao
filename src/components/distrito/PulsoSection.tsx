@@ -21,7 +21,7 @@ const timeline = [
 
 const PulsoSection = () => {
 	return (
-		<section id="registrar" className="py-16 sm:py-20 bg-background">
+		<section id="pulso" className="distrito-section py-16 sm:py-20 bg-background">
 			<div className="section-container">
 				<h2 className="section-title mb-2">PULSO DO DISTRITO</h2>
 				<p className="text-sm text-muted-foreground mb-10">

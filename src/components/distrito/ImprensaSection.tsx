@@ -18,7 +18,7 @@ const ImprensaSection = () => {
 	const [activeTab, setActiveTab] = useState(0);
 
 	return (
-		<section id="imprensa" className="py-16 sm:py-20 bg-background">
+		<section id="sala-de-imprensa" className="distrito-section py-16 sm:py-20 bg-background">
 			<div className="section-container">
 				<h2 className="section-title">SALA DE IMPRENSA</h2>
 				<p className="text-lg text-muted-foreground mb-8">

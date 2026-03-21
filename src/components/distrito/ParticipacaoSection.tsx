@@ -5,7 +5,7 @@ import { Send } from "lucide-react";
 
 const ParticipacaoSection = () => {
 	return (
-		<section id="participe" className="bg-gray-300/75">
+		<section id="participação" className="distrito-section bg-gray-300/75">
 			<div className="section-container py-16 sm:py-20 relative">
 				<h2 className="section-title">PARTICIPE DO ECOSSISTEMA</h2>
 				<p className="text-lg text-muted-foreground mb-8">
