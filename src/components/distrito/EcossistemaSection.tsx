@@ -42,9 +42,9 @@ const EcossistemaSection = () => {
 				</p>
 				
 				<div>
-					<div className="flex flex-wrap items-center gap-10 mb-8">
+					<div className="flex flex-wrap items-center justify-between mb-8">
 						{logos.map((logo, i) => (
-							<div key={i} className="h-10 flex items-center">
+							<div key={i} className="h-16 flex items-center">
 								<img src={logo.src} alt={logo.alt} className="w-full h-full object-contain" />
 							</div>
 						))}

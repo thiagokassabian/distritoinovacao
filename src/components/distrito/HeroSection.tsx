@@ -35,7 +35,7 @@ const HeroSection = () => {
 						<li>Acompanhar e participar (agenda, rotas e canais oficiais)</li>
 					</ul> */}
 
-					<div className="flex flex-wrap gap-4">
+					{/* <div className="flex flex-wrap gap-4">
 						<Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 gap-2">
 							<Play size={18} />
 							Entenda em 30s
@@ -44,7 +44,7 @@ const HeroSection = () => {
 							Ver prova (Pulso)
 							<ArrowRight size={18} />
 						</Button>
-					</div>
+					</div> */}
 				</motion.div>
 			</div>
 		</section>
