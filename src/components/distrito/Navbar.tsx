@@ -16,7 +16,7 @@ const Navbar = () => {
 					Distrito de Inovação<span className="text-primary">.</span>
 				</a> */}
 				<div>
-					<a href="#" className="inline-flex"><img src="./assets/logo.png" alt="Logo do Distrito" className="h-8 w-auto" /></a>
+					<a href="#" className="inline-flex"><img src="../../../assets/logo.png" alt="Logo do Distrito" className="h-8 w-auto" /></a>
 				</div>
 
 				{/* Desktop nav */}
