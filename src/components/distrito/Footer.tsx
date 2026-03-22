@@ -7,8 +7,11 @@ const Footer = () => {
 	return (
 		<footer className="bg-secondary text-secondary-foreground py-12">
 			<div className="section-container">
-				<div className="grid sm:grid-cols-3 gap-8 mb-8">
+				<div className="grid md:grid-cols-3 gap-8 mb-8">
 					<div className="flex flex-col gap-8">
+						<div>
+							<img src="./assets/img/sec-gov-sp-branca.png" alt="Secretaria de Estado de São Paulo" className="w-10/12 mx-auto" />
+						</div>
 						<div>
 							<h3 className="font-display font-bold text-lg mb-3">
 								Distrito de Inovação<span className="text-primary">.</span>
@@ -21,9 +24,6 @@ const Footer = () => {
 							<h4 className="font-display font-semibold text-sm mb-3 text-secondary-foreground/80">Endereço</h4>
 							<div className="text-sm text-secondary-foreground/60">SCTI — Governo do Estado de São Paulo</div>
 						</div>
-						<div>
-							<img src="./assets/img/sec-gov-sp-branca.png" alt="Secretaria de Estado de São Paulo" />
-						</div>
 					</div>
 					<div>
 						<h4 className="font-display font-semibold text-sm mb-3 text-secondary-foreground/80">Links</h4>
@@ -35,7 +35,7 @@ const Footer = () => {
 							<li><a href="#" className="hover:text-primary transition-colors">Termos</a></li>
 						</ul>
 					</div>
-					<div>
+					<div className="bg-neutral-800 p-5 rounded-md">
 						{/* Newsletter */}
 						{/* <div className="distrito-card flex flex-col w-full"> */}
 						<h3 className="font-display font-semibold text-sm mb-3 text-secondary-foreground/80 flex items-center gap-2">

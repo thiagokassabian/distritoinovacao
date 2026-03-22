@@ -41,9 +41,9 @@ const EcossistemaSection = () => {
 					Instituições, governo e empresas conectados para transformar conhecimento em soluções reais.
 				</p>
 
-				<div className="flex flex-wrap items-center justify-between mb-10">
+				<div className="flex flex-wrap items-center justify-center sm:justify-between mb-10 gap-6">
 					{logos.map((logo, i) => (
-						<div key={i} className="h-16 flex items-center">
+						<div key={i} className="h-10 sm:h-16 flex items-center sm:w-auto sm:flex-1">
 							<img src={logo.src} alt={logo.alt} className="w-full h-full object-contain" />
 						</div>
 					))}
@@ -59,7 +59,7 @@ const EcossistemaSection = () => {
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
 								transition={{ delay: i * 0.1 }}
-								className="distrito-card flex items-center gap-4"
+								className="distrito-card flex items-center gap-4 p-6"
 							>
 								<div className="w-12 h-12 rounded-lg bg-secondary text-secondary-foreground flex items-center justify-center shrink-0">
 									<Icon size={22} />

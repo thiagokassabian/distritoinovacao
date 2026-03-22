@@ -5,20 +5,20 @@ import { Send } from "lucide-react";
 
 const ParticipacaoSection = () => {
 	return (
-		<section id="participação" className="distrito-section bg-gray-300/75">
+		<section id="participação" className="distrito-section bg-gray-300/75 overflow-hidden">
 			<div className="section-container py-16 sm:py-20 relative">
 				<h2 className="section-title">PARTICIPE DO ECOSSISTEMA</h2>
 				<p className="text-lg text-muted-foreground mb-8">
 					Quer acompanhar, participar ou sugerir conexões? Direcione seu interesse por aqui.
 				</p>
 
-				<div className="grid md:grid-cols-2 gap-8">
-				{/* <div className="flex flex-col md:flex-row items-start gap-8"> */}
+				<div className="grid md:grid-cols-2">
+					{/* <div className="flex flex-col md:flex-row items-start gap-8"> */}
 					{/* Form */}
 					<div>
-						<img src="./assets/img/foto1.png" alt="" className="absolute bottom-0 max-w-5xl" />
+						<img src="./assets/img/foto1.png" alt="" className="hidden md:block absolute bottom-0 max-w-5xl" />
 					</div>
-					<div className="distrito-card w-full relative">
+					<div className="distrito-card w-full relative p-6">
 						<h3 className="font-display font-semibold text-foreground mb-2 flex items-center gap-2">
 							<Send size={18} className="text-primary" />
 							Leve sua ideia, desafio ou iniciativa para a rede certa
@@ -26,9 +26,9 @@ const ParticipacaoSection = () => {
 						<p className="text-xs text-muted-foreground mb-6">Se você tem uma proposta, desafio, conexão ou possibilidade de colaboração, registre aqui seu interesse.</p>
 
 						<div className="space-y-4">
-								<Input placeholder="Nome completo" className="bg-muted/50" />
-								<Input placeholder="Instituição / organização" className="bg-muted/50" />
-							<div className="grid grid-cols-2 gap-4">
+							<Input placeholder="Nome completo" className="bg-muted/50" />
+							<Input placeholder="Instituição / organização" className="bg-muted/50" />
+							<div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
 								<Input placeholder="E-mail" type="email" className="bg-muted/50" />
 								<Input placeholder="Telefone" className="bg-muted/50" />
 							</div>

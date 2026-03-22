@@ -62,7 +62,7 @@ const RotasSection = () => {
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
 								transition={{ delay: i * 0.1, duration: 0.4 }}
-								className="distrito-card flex flex-col"
+								className="distrito-card flex flex-col p-6"
 							>
 								<div className={`w-10 h-10 rounded-lg ${colorMap[rota.color]} flex items-center justify-center mb-4`}>
 									<Icon size={20} />

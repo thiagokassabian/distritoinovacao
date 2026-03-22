@@ -37,7 +37,7 @@ const PulsoSection = () => {
 							whileInView={{ opacity: 1, y: 0 }}
 							viewport={{ once: true }}
 							transition={{ delay: i * 0.08, duration: 0.4 }}
-							className="distrito-card text-center"
+							className="distrito-card text-center p-6"
 						>
 							<div className="stat-number text-primary">{stat.number}</div>
 							<p className="text-xs text-muted-foreground mt-2">{stat.label}</p>
@@ -59,17 +59,17 @@ const PulsoSection = () => {
 
 				{/* Bottom stats */}
 				<div className="grid sm:grid-cols-3 gap-4 mb-8">
-					<div className="distrito-card">
+					<div className="distrito-card p-6">
 						<p className="text-md  font-display font-bold text-foreground mb-1">Critérios e governança</p>
 						<p className="text-xs text-muted-foreground">Status: Publicado</p>
 						<p className="text-xs text-muted-foreground">Prova: Documento PDF (27/02/2026)</p>
 					</div>
-					<div className="distrito-card">
+					<div className="distrito-card p-6">
 						<p className="text-md font-display font-bold text-foreground mb-1">Mapa do ecossistema</p>
 						<p className="text-xs text-muted-foreground">Status: Em atualização</p>
 						<p className="text-xs text-muted-foreground">Prova: Lista inicial de atores + categorias (12/03/2026) </p>
 					</div>
-					<div className="distrito-card">
+					<div className="distrito-card p-6">
 						<p className="text-md font-display font-bold text-foreground mb-1">Agenda trimestral</p>
 						<p className="text-xs text-muted-foreground">Status: Em validação</p>
 						<p className="text-xs text-muted-foreground">Prova: Calendário preliminar (10/03/2026) </p>

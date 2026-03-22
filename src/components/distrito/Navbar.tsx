@@ -10,7 +10,7 @@ const Navbar = () => {
 
 	return (
 		<nav className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
-			<div className="section-container h-24 flex gap-2 flex-col items-start justify-center">
+			<div className="section-container h-16 lg:h-24 flex gap-2 lg:flex-col items-center lg:items-start justify-between lg:justify-center">
 				{/* <a href="#" className="font-display font-bold text-xl tracking-tight text-foreground">
 					Distrito de Inovação<span className="text-primary">.</span>
 				</a> */}
