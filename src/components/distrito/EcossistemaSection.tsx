@@ -34,18 +34,16 @@ const EcossistemaSection = () => {
 	// const [activeTag, setActiveTag] = useState("P&D");
 
 	return (
-		<section id="ecossistema" className="distrito-section py-16 sm:py-20 bg-gray-300/35">
+		<section id="ecossistema-em-rede" className="distrito-section py-16 sm:py-20 bg-gray-300/35">
 			<div className="section-container">
 				<h2 className="section-title">ECOSSISTEMA EM REDE</h2>
 				<p className="text-lg text-muted-foreground mb-10">
 					Instituições, governo e empresas conectados para transformar conhecimento em soluções reais.
 				</p>
 
-				<div className="flex flex-wrap items-center justify-center sm:justify-between mb-10 gap-6">
+				<div className="flex flex-wrap items-center justify-center sm:justify-around mb-10 gap-6">
 					{logos.map((logo, i) => (
-						<div key={i} className="h-10 sm:h-16 flex items-center sm:w-auto sm:flex-1">
-							<img src={logo.src} alt={logo.alt} className="w-full h-full object-contain" />
-						</div>
+						<img src={logo.src} alt={logo.alt} className="h-10 sm:h-16" />
 					))}
 				</div>
 

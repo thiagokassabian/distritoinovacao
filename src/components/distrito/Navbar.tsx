@@ -2,29 +2,29 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const navItems = [
-	"Entenda o Distrito", "Pulso", "Projetos e Resultados", "Agenda e Marcos", "Ecossistema", "Ecossistema em Rede", "Sala de Imprensa", "Dúvidas", "Participação"
+	"Entenda o Distrito", "Pulso", "Projetos e Resultados", "Agenda e Marcos", "Ecossistema em Rede", "Sala de Imprensa", "Dúvidas", "Participação"
 ];
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<nav className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
-			<div className="section-container h-16 lg:h-24 flex gap-2 lg:flex-col items-center lg:items-start justify-between lg:justify-center">
+		<nav className="sticky top-0 z-50 bg-background/90 backdrop-blur-sm border-b border-border">
+			<div className="section-container h-16 lg:h-24 flex lg:flex-col items-center lg:items-start justify-between lg:justify-center">
 				{/* <a href="#" className="font-display font-bold text-xl tracking-tight text-foreground">
 					Distrito de Inovação<span className="text-primary">.</span>
 				</a> */}
-				<div>
+				<div className="mt-0 lg:mt-3">
 					<a href="#" className="inline-flex"><img src="./assets/img/logo.png" alt="Logo do Distrito" className="h-8 w-auto" /></a>
 				</div>
 
 				{/* Desktop nav */}
-				<div className="hidden lg:flex items-start gap-3">
+				<div className="hidden lg:flex lg:justify-between lg:mt-2 w-auto lg:w-full">
 					{navItems.map((item) => (
 						<a
 							key={item}
 							href={`#${item.toLowerCase().replace(/\s/g, "-")}`}
-							className="px-3 py-2 text-sm font-medium border-b-2 border-b-transparent text-muted-foreground hover:text-foreground transition-colors hover:border-b-2 hover:border-b-primary"
+							className="pb-1 text-sm font-medium border-b-2 border-b-transparent text-muted-foreground hover:text-foreground transition-colors hover:border-b-2 hover:border-b-primary"
 						>
 							{item}
 						</a>
