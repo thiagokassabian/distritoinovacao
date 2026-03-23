@@ -51,14 +51,15 @@ const EcossistemaSection = () => {
 					{categories.map((cat, i) => {
 						const Icon = cat.icon;
 						return (
-							<motion.div
-								key={i}
-								initial={{ opacity: 0, y: 15 }}
-								whileInView={{ opacity: 1, y: 0 }}
-								viewport={{ once: true }}
-								transition={{ delay: i * 0.1 }}
-								className="distrito-card flex items-center gap-4 p-6"
-							>
+							// <motion.div
+							// 	key={i}
+							// 	initial={{ opacity: 0, y: 15 }}
+							// 	whileInView={{ opacity: 1, y: 0 }}
+							// 	viewport={{ once: true }}
+							// 	transition={{ delay: i * 0.1 }}
+							// 	className="distrito-card flex items-center gap-4 p-6"
+							// >
+							<div key={i} className="distrito-card flex items-center gap-4 p-6">
 								<div className="w-12 h-12 rounded-lg bg-secondary text-secondary-foreground flex items-center justify-center shrink-0">
 									<Icon size={22} />
 								</div>
@@ -66,7 +67,8 @@ const EcossistemaSection = () => {
 									<p className="font-display font-semibold text-sm text-foreground">{cat.label}</p>
 									<p className="text-xs text-muted-foreground">{cat.desc}</p>
 								</div>
-							</motion.div>
+							</div>
+							// </motion.div>
 						);
 					})}
 				</div>

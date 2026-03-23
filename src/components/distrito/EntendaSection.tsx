@@ -12,12 +12,13 @@ const EntendaSection = () => {
 	return (
 		<section id="entenda-o-distrito" className="distrito-section py-16 sm:py-20 bg-background">
 			<div className="section-container">
-				<motion.div
+				{/* <motion.div
 					initial={{ opacity: 0, y: 20 }}
 					whileInView={{ opacity: 1, y: 0 }}
 					viewport={{ once: true }}
 					transition={{ duration: 0.5 }}
-				>
+				> */}
+				<div>
 					<h2 className="section-title">
 						ENTENDA O DISTRITO
 					</h2>
@@ -56,7 +57,8 @@ const EntendaSection = () => {
 							</Button> */}
 						</div>
 					</div>
-				</motion.div>
+				</div>
+				{/* </motion.div> */}
 			</div>
 		</section>
 	);

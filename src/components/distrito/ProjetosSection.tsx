@@ -33,14 +33,15 @@ const ProjetosSection = () => {
 					{projetos.map((projeto, i) => {
 						const Icon = projeto.icon;
 						return (
-							<motion.div
-								key={i}
-								initial={{ opacity: 0, y: 20 }}
-								whileInView={{ opacity: 1, y: 0 }}
-								viewport={{ once: true }}
-								transition={{ delay: i * 0.1, duration: 0.4 }}
-								className="distrito-card flex flex-col"
-							>
+							<div key={i} className="distrito-card flex flex-col">
+								{/* // <motion.div
+							// 	key={i}
+							// 	initial={{ opacity: 0, y: 20 }}
+							// 	whileInView={{ opacity: 1, y: 0 }}
+							// 	viewport={{ once: true }}
+							// 	transition={{ delay: i * 0.1, duration: 0.4 }}
+							// 	className="distrito-card flex flex-col"
+							// > */}
 								<div className="w-full h-52 rounded-t-md overflow-hidden">
 									<img src={projeto.img} alt={projeto.title} className="w-full h-full object-cover" />
 								</div>
@@ -55,12 +56,13 @@ const ProjetosSection = () => {
 										</Button>
 									</div>
 								</div>
-							</motion.div>
+								{/* </motion.div> */}
+							</div>
 						);
 					})}
 				</div>
 			</div>
-		</section>
+		</section >
 	);
 };
 

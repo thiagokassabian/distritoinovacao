@@ -31,17 +31,19 @@ const PulsoSection = () => {
 				{/* Stats grid */}
 				<div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 mb-12">
 					{stats.map((stat, i) => (
-						<motion.div
-							key={i}
-							initial={{ opacity: 0, y: 15 }}
-							whileInView={{ opacity: 1, y: 0 }}
-							viewport={{ once: true }}
-							transition={{ delay: i * 0.08, duration: 0.4 }}
-							className="distrito-card text-center p-6"
-						>
+						// <motion.div
+						// 	key={i}
+						// 	initial={{ opacity: 0, y: 15 }}
+						// 	whileInView={{ opacity: 1, y: 0 }}
+						// 	viewport={{ once: true }}
+						// 	transition={{ delay: i * 0.08, duration: 0.4 }}
+						// 	className="distrito-card text-center p-6"
+						// >
+						<div key={i} className="distrito-card text-center p-6">
 							<div className="stat-number text-primary">{stat.number}</div>
 							<p className="text-xs text-muted-foreground mt-2">{stat.label}</p>
-						</motion.div>
+						</div>
+						// </motion.div>
 					))}
 				</div>
 

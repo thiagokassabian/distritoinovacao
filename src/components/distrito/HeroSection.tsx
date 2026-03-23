@@ -13,12 +13,13 @@ const HeroSection = () => {
 			<div className="mask" />
 
 			<div className="section-container relative">
-				<motion.div
+				{/* <motion.div
 					initial={{ opacity: 0, y: 30 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.8 }}
 					className="max-w-3xl"
-				>
+				> */}
+				<div className="max-w-3xl">
 					<h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold font-display leading-[1.05] tracking-tight mb-6">
 						Distrito de Inovação
 						<br />
@@ -45,7 +46,8 @@ const HeroSection = () => {
 							<ArrowRight size={18} />
 						</Button>
 					</div> */}
-				</motion.div>
+					{/* </motion.div> */}
+				</div>
 			</div>
 		</section>
 	);

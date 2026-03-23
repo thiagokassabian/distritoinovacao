@@ -56,14 +56,15 @@ const RotasSection = () => {
 						const Icon = rota.icon;
 						const isOpen = openIdx === i;
 						return (
-							<motion.div
-								key={i}
-								initial={{ opacity: 0, y: 20 }}
-								whileInView={{ opacity: 1, y: 0 }}
-								viewport={{ once: true }}
-								transition={{ delay: i * 0.1, duration: 0.4 }}
-								className="distrito-card flex flex-col p-6"
-							>
+							// <motion.div
+							// 	key={i}
+							// 	initial={{ opacity: 0, y: 20 }}
+							// 	whileInView={{ opacity: 1, y: 0 }}
+							// 	viewport={{ once: true }}
+							// 	transition={{ delay: i * 0.1, duration: 0.4 }}
+							// 	className="distrito-card flex flex-col p-6"
+							// >
+							<div key={i} className="distrito-card flex flex-col p-6">
 								<div className={`w-10 h-10 rounded-lg ${colorMap[rota.color]} flex items-center justify-center mb-4`}>
 									<Icon size={20} />
 								</div>
@@ -79,17 +80,21 @@ const RotasSection = () => {
 								</button>
 
 								{isOpen && (
-									<motion.ul
-										initial={{ height: 0, opacity: 0 }}
-										animate={{ height: "auto", opacity: 1 }}
-										className="mt-3 space-y-1 border-t border-border pt-3"
-									>
+									// <motion.ul
+									// 	initial={{ height: 0, opacity: 0 }}
+									// 	animate={{ height: "auto", opacity: 1 }}
+									// 	className="mt-3 space-y-1 border-t border-border pt-3"
+									// >
+									<ul className="mt-3 space-y-1 border-t border-border pt-3">
 										{rota.items.map((item, j) => (
 											<li key={j} className="text-sm text-muted-foreground">• {item}</li>
 										))}
-									</motion.ul>
+									</ul>
+
+									// </motion.ul>
 								)}
-							</motion.div>
+								{/* // </motion.div> */}
+							</div>
 						);
 					})}
 				</div>
